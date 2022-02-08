@@ -13,7 +13,7 @@ public class PepperoniPizza extends Pizza {
 	@Override
 	public void show() {
 		frame.setTitle("Pepperoni Pizza");
-		label.setIcon(loadImage("pepperoniPizza.jpeg"));
+		label.setIcon(Pizza.loadImage("pepperoniPizza.png"));
 	}
 
 	// 2. Add @Override above the method
